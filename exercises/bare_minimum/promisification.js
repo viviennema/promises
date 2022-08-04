@@ -26,6 +26,7 @@ var getGitHubProfile = function (user, callback) {
       );
     } else {
       callback(null, body);
+      console.log('body', body);
     }
   });
 };
